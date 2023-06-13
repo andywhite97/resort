@@ -20,6 +20,13 @@ import { NewsletterComponent } from './home/newsletter/newsletter.component';
 import { RoomsComponent } from './accomodation/rooms/rooms.component';
 import { RoomPricingComponent } from './accomodation/room-pricing/room-pricing.component';
 import { ReservationComponent } from './restaurant/reservation/reservation.component';
+import { ActivitiesComponent } from './activities/activities.component';
+import { ListComponent } from './activities/list/list.component';
+import { FeaturesComponent } from './activities/features/features.component';
+import { PromoComponent } from './home/promo/promo.component';
+import { RestComponent } from './home/rest/rest.component';
+import { AccomComponent } from './home/accom/accom.component';
+import { ActComponent } from './home/act/act.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +47,14 @@ import { ReservationComponent } from './restaurant/reservation/reservation.compo
     NewsletterComponent,
     RoomsComponent,
     RoomPricingComponent,
-    ReservationComponent
+    ReservationComponent,
+    ActivitiesComponent,
+    ListComponent,
+    FeaturesComponent,
+    PromoComponent,
+    RestComponent,
+    AccomComponent,
+    ActComponent
   ],
   imports: [
     BrowserModule,
